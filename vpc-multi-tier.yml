@@ -202,29 +202,29 @@ Parameters:
   pTier2Name:
     Type: String
     Description: Tier 2 Name
-    Default: private
+    Default: private-web
 
   pTier3Create:
     Type: String
     Description: Whether Tier 3 should be created
-    Default: false
+    Default: true
     AllowedValues: [true, false]
 
   pTier3Name:
     Type: String
     Description: Tier 3 Name
-    Default: restricted
+    Default: private-app
 
   pTier4Create:
     Type: String
     Description: Whether Tier 4 should be created
-    Default: false
+    Default: true
     AllowedValues: [true, false]
 
   pTier4Name:
     Type: String
     Description: Tier 4 Name
-    Default: restricted
+    Default: private-database
 
   pTier1Subnet1Cidr:
     Type: String
