@@ -1117,21 +1117,21 @@ Outputs:
       Name: !Sub '${AWS::StackName}::${pTier3Name}-subnet-id-3'
 
   oTier4Subnet1:
-    Description: Tier 3 Subnet 1 ID
+    Description: Tier 4 Subnet 1 ID
     Value: !Ref 'rTier4Subnet1'
     Condition: cCreateTier4Subnet1
     Export:
       Name: !Sub '${AWS::StackName}::${pTier4Name}-subnet-id-1'
 
   oTier4Subnet2:
-    Description: Tier 3 Subnet 2 ID
+    Description: Tier 4 Subnet 2 ID
     Value: !Ref 'rTier4Subnet2'
     Condition: cCreateTier4Subnet2
     Export:
       Name: !Sub '${AWS::StackName}::${pTier4Name}-subnet-id-2'
 
   oTier4Subnet3:
-    Description: Tier 3 Subnet 3 ID
+    Description: Tier 4 Subnet 3 ID
     Value: !Ref 'rTier4Subnet3'
     Condition: cCreateTier4Subnet3
     Export:
