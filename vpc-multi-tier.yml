@@ -461,7 +461,7 @@ Resources:
       Domain: vpc
       Tags:
       - Key: Name
-        Value: !Sub '${pVpcName}-natgw-1'
+        Value: !Sub '${pVpcName}-natgw-AZa'
       - Key: Environment
         Value: !Sub '${pSystem}'
 
@@ -472,7 +472,7 @@ Resources:
       Domain: vpc
       Tags:
       - Key: Name
-        Value: !Sub '${pVpcName}-natgw-2'
+        Value: !Sub '${pVpcName}-natgw-AZb'
       - Key: Environment
         Value: !Sub '${pSystem}'
 
@@ -483,7 +483,7 @@ Resources:
       Domain: vpc
       Tags:
       - Key: Name
-        Value: !Sub '${pVpcName}-natgw-3'
+        Value: !Sub '${pVpcName}-natgw-AZc'
       - Key: Environment
         Value: !Sub '${pSystem}'
 
@@ -498,7 +498,7 @@ Resources:
       VpcId: !Ref 'rVpc'
       Tags:
       - Key: Name
-        Value: !Sub '${pVpcName}-${pTier1Name}-1'
+        Value: !Sub '${pVpcName}-${pTier1Name}-AZa'
       - Key: Environment
         Value: !Sub '${pSystem}'
 
@@ -514,7 +514,7 @@ Resources:
       VpcId: !Ref 'rVpc'
       Tags:
       - Key: Name
-        Value: !Sub '${pVpcName}-${pTier1Name}-2'
+        Value: !Sub '${pVpcName}-${pTier1Name}-AZb'
       - Key: Environment
         Value: !Sub '${pSystem}'
 
@@ -529,7 +529,7 @@ Resources:
       VpcId: !Ref 'rVpc'
       Tags:
       - Key: Name
-        Value: !Sub '${pVpcName}-${pTier1Name}-3'
+        Value: !Sub '${pVpcName}-${pTier1Name}-AZc'
       - Key: Environment
         Value: !Sub '${pSystem}'
 
@@ -542,7 +542,7 @@ Resources:
       SubnetId: !Ref 'rTier1Subnet1'
       Tags:
       - Key: Name
-        Value: !Sub '${pVpcName}-1'
+        Value: !Sub '${pVpcName}-AZa'
       - Key: Environment
         Value: !Sub '${pSystem}'
 
@@ -556,7 +556,7 @@ Resources:
       SubnetId: !Ref 'rTier1Subnet2'
       Tags:
       - Key: Name
-        Value: !Sub '${pVpcName}-2'
+        Value: !Sub '${pVpcName}-AZb'
       - Key: Environment
         Value: !Sub '${pSystem}'
 
@@ -569,7 +569,7 @@ Resources:
       SubnetId: !Ref 'rTier1Subnet3'
       Tags:
       - Key: Name
-        Value: !Sub '${pVpcName}-3'
+        Value: !Sub '${pVpcName}-AZc'
       - Key: Environment
         Value: !Sub '${pSystem}'
 
@@ -581,7 +581,7 @@ Resources:
       VpcId: !Ref 'rVpc'
       Tags:
       - Key: Name
-        Value: !Sub '${pVpcName}-${pTier1Name}-1'
+        Value: !Sub '${pVpcName}-${pTier1Name}-AZa'
       - Key: Environment
         Value: !Sub '${pSystem}'
 
@@ -593,7 +593,7 @@ Resources:
       VpcId: !Ref 'rVpc'
       Tags:
       - Key: Name
-        Value: !Sub '${pVpcName}-${pTier1Name}-2'
+        Value: !Sub '${pVpcName}-${pTier1Name}-AZb'
       - Key: Environment
         Value: !Sub '${pSystem}'
 
@@ -605,7 +605,7 @@ Resources:
       VpcId: !Ref 'rVpc'
       Tags:
       - Key: Name
-        Value: !Sub '${pVpcName}-${pTier1Name}-3'
+        Value: !Sub '${pVpcName}-${pTier1Name}-AZc'
       - Key: Environment
         Value: !Sub '${pSystem}'
 
@@ -669,7 +669,7 @@ Resources:
       VpcId: !Ref 'rVpc'
       Tags:
       - Key: Name
-        Value: !Sub '${pVpcName}-${pTier2Name}-1'
+        Value: !Sub '${pVpcName}-${pTier2Name}-AZa'
       - Key: Environment
         Value: !Sub '${pSystem}'
 
@@ -684,7 +684,7 @@ Resources:
       VpcId: !Ref 'rVpc'
       Tags:
       - Key: Name
-        Value: !Sub '${pVpcName}-${pTier2Name}-2'
+        Value: !Sub '${pVpcName}-${pTier2Name}-AZb'
       - Key: Environment
         Value: !Sub '${pSystem}'
 
@@ -699,7 +699,7 @@ Resources:
       VpcId: !Ref 'rVpc'
       Tags:
       - Key: Name
-        Value: !Sub '${pVpcName}-${pTier2Name}-3'
+        Value: !Sub '${pVpcName}-${pTier2Name}-AZc'
       - Key: Environment
         Value: !Sub '${pSystem}'
 
@@ -711,7 +711,7 @@ Resources:
       VpcId: !Ref 'rVpc'
       Tags:
       - Key: Name
-        Value: !Sub '${pVpcName}-${pTier2Name}-1'
+        Value: !Sub '${pVpcName}-${pTier2Name}-AZa'
       - Key: Environment
         Value: !Sub '${pSystem}'
 
@@ -723,7 +723,7 @@ Resources:
       VpcId: !Ref 'rVpc'
       Tags:
       - Key: Name
-        Value: !Sub '${pVpcName}-${pTier2Name}-2'
+        Value: !Sub '${pVpcName}-${pTier2Name}-AZb'
       - Key: Environment
         Value: !Sub '${pSystem}'
 
@@ -735,7 +735,7 @@ Resources:
       VpcId: !Ref 'rVpc'
       Tags:
       - Key: Name
-        Value: !Sub '${pVpcName}-${pTier2Name}-3'
+        Value: !Sub '${pVpcName}-${pTier2Name}-AZc'
       - Key: Environment
         Value: !Sub '${pSystem}'
 
@@ -799,7 +799,7 @@ Resources:
       VpcId: !Ref 'rVpc'
       Tags:
       - Key: Name
-        Value: !Sub '${pVpcName}-${pTier3Name}-1'
+        Value: !Sub '${pVpcName}-${pTier3Name}-AZa'
       - Key: Environment
         Value: !Sub '${pSystem}'
 
@@ -814,7 +814,7 @@ Resources:
       VpcId: !Ref 'rVpc'
       Tags:
       - Key: Name
-        Value: !Sub '${pVpcName}-${pTier3Name}-2'
+        Value: !Sub '${pVpcName}-${pTier3Name}-AZb'
       - Key: Environment
         Value: !Sub '${pSystem}'
 
@@ -829,7 +829,7 @@ Resources:
       VpcId: !Ref 'rVpc'
       Tags:
       - Key: Name
-        Value: !Sub '${pVpcName}-${pTier3Name}-3'
+        Value: !Sub '${pVpcName}-${pTier3Name}-AZc'
       - Key: Environment
         Value: !Sub '${pSystem}'
 
@@ -841,7 +841,7 @@ Resources:
       VpcId: !Ref 'rVpc'
       Tags:
       - Key: Name
-        Value: !Sub '${pVpcName}-${pTier3Name}-1'
+        Value: !Sub '${pVpcName}-${pTier3Name}-AZa'
       - Key: Environment
         Value: !Sub '${pSystem}'
 
@@ -853,7 +853,7 @@ Resources:
       VpcId: !Ref 'rVpc'
       Tags:
       - Key: Name
-        Value: !Sub '${pVpcName}-${pTier3Name}-2'
+        Value: !Sub '${pVpcName}-${pTier3Name}-AZb'
       - Key: Environment
         Value: !Sub '${pSystem}'
 
@@ -865,7 +865,7 @@ Resources:
       VpcId: !Ref 'rVpc'
       Tags:
       - Key: Name
-        Value: !Sub '${pVpcName}-${pTier3Name}-3'
+        Value: !Sub '${pVpcName}-${pTier3Name}-AZc'
       - Key: Environment
         Value: !Sub '${pSystem}'
 
@@ -929,7 +929,7 @@ Resources:
       VpcId: !Ref 'rVpc'
       Tags:
       - Key: Name
-        Value: !Sub '${pVpcName}-${pTier4Name}-1'
+        Value: !Sub '${pVpcName}-${pTier4Name}-AZa'
       - Key: Environment
         Value: !Sub '${pSystem}'
 
@@ -944,7 +944,7 @@ Resources:
       VpcId: !Ref 'rVpc'
       Tags:
       - Key: Name
-        Value: !Sub '${pVpcName}-${pTier4Name}-2'
+        Value: !Sub '${pVpcName}-${pTier4Name}-AZb'
       - Key: Environment
         Value: !Sub '${pSystem}'
 
@@ -959,7 +959,7 @@ Resources:
       VpcId: !Ref 'rVpc'
       Tags:
       - Key: Name
-        Value: !Sub '${pVpcName}-${pTier4Name}-3'
+        Value: !Sub '${pVpcName}-${pTier4Name}-AZc'
       - Key: Environment
         Value: !Sub '${pSystem}'
 
@@ -971,7 +971,7 @@ Resources:
       VpcId: !Ref 'rVpc'
       Tags:
       - Key: Name
-        Value: !Sub '${pVpcName}-${pTier4Name}-1'
+        Value: !Sub '${pVpcName}-${pTier4Name}-AZa'
       - Key: Environment
         Value: !Sub '${pSystem}'
 
@@ -983,7 +983,7 @@ Resources:
       VpcId: !Ref 'rVpc'
       Tags:
       - Key: Name
-        Value: !Sub '${pVpcName}-${pTier4Name}-2'
+        Value: !Sub '${pVpcName}-${pTier4Name}-AZb'
       - Key: Environment
         Value: !Sub '${pSystem}'
 
@@ -995,7 +995,7 @@ Resources:
       VpcId: !Ref 'rVpc'
       Tags:
       - Key: Name
-        Value: !Sub '${pVpcName}-${pTier4Name}-3'
+        Value: !Sub '${pVpcName}-${pTier4Name}-AZc'
       - Key: Environment
         Value: !Sub '${pSystem}'
 
@@ -1058,81 +1058,81 @@ Outputs:
     Value: !Ref 'rTier1Subnet1'
     Condition: cCreateTier1Subnet1
     Export:
-      Name: !Sub '${AWS::StackName}::${pTier1Name}-subnet-id-1'
+      Name: !Sub '${AWS::StackName}::${pTier1Name}-subnet-id-AZa'
 
   oTier1Subnet2:
     Description: Tier 1 Subnet 2 ID
     Value: !Ref 'rTier1Subnet2'
     Condition: cCreateTier1Subnet2
     Export:
-      Name: !Sub '${AWS::StackName}::${pTier1Name}-subnet-id-2'
+      Name: !Sub '${AWS::StackName}::${pTier1Name}-subnet-id-AZb'
 
   oTier1Subnet3:
     Description: Tier 1 Subnet 3 ID
     Value: !Ref 'rTier1Subnet3'
     Condition: cCreateTier1Subnet3
     Export:
-      Name: !Sub '${AWS::StackName}::${pTier1Name}-subnet-id-3'
+      Name: !Sub '${AWS::StackName}::${pTier1Name}-subnet-id-AZc'
 
   oTier2Subnet1:
     Description: Tier 2 Subnet 1 ID
     Value: !Ref 'rTier2Subnet1'
     Condition: cCreateTier2Subnet1
     Export:
-      Name: !Sub '${AWS::StackName}::${pTier2Name}-subnet-id-1'
+      Name: !Sub '${AWS::StackName}::${pTier2Name}-subnet-id-AZa'
 
   oTier2Subnet2:
     Description: Tier 2 Subnet 2 ID
     Value: !Ref 'rTier2Subnet2'
     Condition: cCreateTier2Subnet2
     Export:
-      Name: !Sub '${AWS::StackName}::${pTier2Name}-subnet-id-2'
+      Name: !Sub '${AWS::StackName}::${pTier2Name}-subnet-id-AZb'
 
   oTier2Subnet3:
     Description: Tier 2 Subnet 3 ID
     Value: !Ref 'rTier2Subnet3'
     Condition: cCreateTier2Subnet3
     Export:
-      Name: !Sub '${AWS::StackName}::${pTier2Name}-subnet-id-3'
+      Name: !Sub '${AWS::StackName}::${pTier2Name}-subnet-id-AZc'
 
   oTier3Subnet1:
     Description: Tier 3 Subnet 1 ID
     Value: !Ref 'rTier3Subnet1'
     Condition: cCreateTier3Subnet1
     Export:
-      Name: !Sub '${AWS::StackName}::${pTier3Name}-subnet-id-1'
+      Name: !Sub '${AWS::StackName}::${pTier3Name}-subnet-id-AZa'
 
   oTier3Subnet2:
     Description: Tier 3 Subnet 2 ID
     Value: !Ref 'rTier3Subnet2'
     Condition: cCreateTier3Subnet2
     Export:
-      Name: !Sub '${AWS::StackName}::${pTier3Name}-subnet-id-2'
+      Name: !Sub '${AWS::StackName}::${pTier3Name}-subnet-id-AZb'
 
   oTier3Subnet3:
     Description: Tier 3 Subnet 3 ID
     Value: !Ref 'rTier3Subnet3'
     Condition: cCreateTier3Subnet3
     Export:
-      Name: !Sub '${AWS::StackName}::${pTier3Name}-subnet-id-3'
+      Name: !Sub '${AWS::StackName}::${pTier3Name}-subnet-id-AZc'
 
   oTier4Subnet1:
     Description: Tier 4 Subnet 1 ID
     Value: !Ref 'rTier4Subnet1'
     Condition: cCreateTier4Subnet1
     Export:
-      Name: !Sub '${AWS::StackName}::${pTier4Name}-subnet-id-1'
+      Name: !Sub '${AWS::StackName}::${pTier4Name}-subnet-id-AZa'
 
   oTier4Subnet2:
     Description: Tier 4 Subnet 2 ID
     Value: !Ref 'rTier4Subnet2'
     Condition: cCreateTier4Subnet2
     Export:
-      Name: !Sub '${AWS::StackName}::${pTier4Name}-subnet-id-2'
+      Name: !Sub '${AWS::StackName}::${pTier4Name}-subnet-id-AZb'
 
   oTier4Subnet3:
     Description: Tier 4 Subnet 3 ID
     Value: !Ref 'rTier4Subnet3'
     Condition: cCreateTier4Subnet3
     Export:
-      Name: !Sub '${AWS::StackName}::${pTier4Name}-subnet-id-3'
+      Name: !Sub '${AWS::StackName}::${pTier4Name}-subnet-id-AZc'
