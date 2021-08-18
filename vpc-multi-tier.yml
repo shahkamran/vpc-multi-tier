@@ -415,7 +415,7 @@ Resources:
   rVpcFlowLogGroup:
     Type: AWS::Logs::LogGroup
     Properties:
-      LogGroupName: !Sub '/${pVpcName}/flowlogs'
+      LogGroupName: !Sub '/${pSystem}/${pVpcName}/flowlogs'
       RetentionInDays: 1
 
   rVpcFlowLog:
