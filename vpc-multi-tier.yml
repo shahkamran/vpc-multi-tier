@@ -69,9 +69,9 @@ Metadata:
       pVpcName:
         default: VPC Name
       pOrg:
-        default: Business Scope
+        default: Business Scope (Organisation/ Department)
       pSystem:
-        default: System Identifier
+        default: System Identifier (Environment)
       pCidr:
         default: VPC CIDR Block
       pNumAzs:
@@ -134,17 +134,17 @@ Parameters:
   pVpcName:
     Type: String
     Description: Name of the VPC and used to qualify names of associated resources
-    Default: dev
+    Default: DMZ
 
   pOrg:
     Type: String
     Description: Used to qualify IAM resource names
-    Default: example
+    Default: GVDev
 
   pSystem:
     Type: String
     Description: Used to qualify IAM role path
-    Default: infra
+    Default: Production
 
   pCidr:
     Type: String
@@ -157,7 +157,7 @@ Parameters:
 
   pNumAzs:
     Type: String
-    Default: 3
+    Default: 2
     Description: Number of subnets for each tier
     AllowedValues:
     - 1
